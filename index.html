@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <!--==========  End Font  ==========-->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <div class="navitem">
+      <nav class="navbar p-2 navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand nav" href="#">
+            <div>
+              <i class="fa-solid fa-cloud m-2 icon" style="color: #63e6be"></i>
+            </div>
+            <div>
+              <span class="text-white">Weather</span> <br /><span
+                class="text text-white"
+                >tagline goes here</span
+              >
+            </div>
+          </a>
+          <div class="item">
+            <span class="home">Home</span>
+            <span> News</span>
+            <span>Live cameras</span>
+            <span>Photos</span>
+            <span>Contact</span>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section>
+      <div class="search" id=" searchItem">
+        <input
+          type="text"
+          placeholder="Find your location..."
+          id="search"
+          class="search-input"
+        />
+        <button type="button" class="btn" id="searchBtn">Find</button>
+      </div>
+    </section>
+    <section>
+      <section id="weather-section">
+        <div class="weather-card" id="day1">
+          <h3 class="fw-bolder font-monospace">Today</h3>
+          <div class="weather-icon" id="day1-icon"></div>
+          <p class="day-weather text-info font-monospace">--</p>
+          <p class="day-temp fw-bolder font-monospace" >--</p>
+          <p class="day-city fw-bolder font-monospace">--</p>
+          
+        <span class="span-one  "><i class="fa-solid fa-umbrella-beach text-danger"></i> 20%</span>
+          <span class="span-tow"><i class="fa-solid fa-wind text-warning"></i> 18km/h</span>
+          <span class="span-three"><i class="fa-regular fa-compass text-info"></i> East</span>
+        </div>               
+      
+        <div class="weather-card" id="day2">
+          <h3 class="fw-bolder font-monospace">Tomorrow</h3>
+          <div class="weather-icon" id="day2-icon"></div>
+          <p class="day-weather text-info font-monospace">--</p>
+          <p class="day-temp fw-bolder font-monospace">--</p>
+          <p class="day-city fw-bolder font-monospace">--</p>
+          <span class="span-one "><i class="fa-solid fa-umbrella-beach text-danger"></i> 20%</span>
+          <span class="span-tow"><i class="fa-solid fa-wind text-warning"></i> 18km/h</span>
+          <span class="span-three"><i class="fa-regular fa-compass text-info"></i> East</span>
+        </div>
+        <div class="weather-card" id="day3">
+          <h3 class="fw-bolder font-monospace">Day After Tomorrow</h3>
+          <div class="weather-icon" id="day3-icon"></div>
+          <p class="day-weather text-info font-monospace">--</p>
+          <p class="day-temp fw-bolder font-monospace">--</p>
+          <p class="day-city fw-bolder font-monospace">--</p>
+          <span class="span-one "><i class="fa-solid fa-umbrella-beach text-danger"></i> 20%</span>
+          <span class="span-tow"><i class="fa-solid fa-wind text-warning"></i> 18km/h</span>
+          <span class="span-three"><i class="fa-regular fa-compass text-info"></i> East</span>
+        </div>
+      </section>
+    </section>
+    <footer class="footer">
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Enter your email to subscribe..."
+          id="search"
+          class="search-input"
+        />
+        <button type="button" class="btn">Subscribe</button>
+      </div>
+      <div class="iconFooter" id="iconFooter">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-google-plus-g"></i>
+        <i class="fa-brands fa-pinterest"></i>
+      </div>
+      <span class="textFooter text-white"
+        >Copyright 2024 Company name. Designed by Themezy. All rights
+        reserved</span
+      >
+    </footer>
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
+
+    
+  </body>
+</html>
